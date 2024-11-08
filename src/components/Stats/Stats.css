@@ -1,0 +1,28 @@
+.task-stats {
+  color: var(--color-dark);
+}
+
+.task-stats span {
+  font-weight: bold;
+  color: var(--color-prim);
+}
+
+.btn-clear {
+  background: var(--color-three);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  width: 100%;
+}
+
+.btn-clear:hover {
+  border-color: none;
+  scale: 1.01;
+  box-shadow: 0 2px 0 var(--color-white);
+}

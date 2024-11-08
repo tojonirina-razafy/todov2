@@ -1,0 +1,33 @@
+.list-items {
+  padding: 1rem;
+  margin: 0;
+}
+
+.item {
+  list-style: none;
+  background: var(--color-dark);
+  padding: 0.7rem 1rem;
+  border-radius: 0.7rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empty-task {
+  color: var(--color-dark);
+  background: #efefef;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+}
+
+.trash-btn {
+  height: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.trash-btn:hover {
+  color: var(--color-prim);
+}

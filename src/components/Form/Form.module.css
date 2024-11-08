@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  gap: 0.2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(12px);
+}
+
+.formControl {
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.formControl:focus {
+  outline-color: #646cffaa;
+  outline-width: 3px;
+  outline-style: ridge;
+  box-shadow: none;
+  border: none;
+}
+
+.form button {
+  cursor: pointer;
+}

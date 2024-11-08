@@ -1,0 +1,55 @@
+.corbeil {
+  background: var(--color-dark);
+  color: var(--color-prim);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  text-align: start;
+  height: 15rem;
+  overflow-y: auto;
+  position: relative;
+}
+
+.corbeil::-webkit-scrollbar {
+  background: #cbcbcbde;
+  width: 0.6rem;
+  border-radius: 0.6rem;
+}
+
+.corbeil::-webkit-scrollbar-thumb {
+  background: #828282aa;
+  border-radius: 0.6rem;
+}
+
+.corbeil small {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.item-corbeil {
+  list-style: none;
+  background: var(--color-white);
+  padding: 0.5rem 1rem;
+  border-radius: 0.7rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empty-task {
+  color: var(--color-dark);
+  background: #efefef;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+}
+
+.trash {
+  height: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trash:hover {
+  color: red;
+}
